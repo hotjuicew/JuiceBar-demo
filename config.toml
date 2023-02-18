@@ -1,4 +1,4 @@
-baseURL = 'http://juicebar-demo.add1.dev/'
+baseURL = 'https://juicebar-demo.add1.dev'
 languageCode = 'zh'
 theme = "JuiceBar"
 title = "JuiceBar"
@@ -24,7 +24,7 @@ name = "twitter"
 url = "https://twitter.com/hotjuicee"
 [[params.social]]
 name = "email"
-url = "mailto:hotjuicew@outlook.com"
+url = "mailto:imjiaying@outlook.com"
 
 
 [taxonomies]
