@@ -1,5 +1,5 @@
 baseURL = 'https://juicebar-demo.add1.dev'
-languageCode = 'zh'
+languageCode = 'zh-CN'
 theme = "JuiceBar"
 title = "JuiceBar"
 
@@ -42,21 +42,6 @@ url = "/post"
 name = "Categories"
 url = "/categories"
 
-# 添加页脚显示的所有链接
-[[menu.footer]]
-name = "About"
-url = "/about"
-[[menu.footer]]
-name = "Privacy"
-url = "/privacy"
-
-
-
-#用于输出文档的设置
-
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]
 
 
 

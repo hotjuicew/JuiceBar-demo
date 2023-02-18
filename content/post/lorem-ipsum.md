@@ -4,7 +4,6 @@ date: 2022-04-10T16:50:28+08:00
 categories : [ "Development" ]
 ---
 Lorem ipsum dolor sit amet, consectetur...
-javascript
 ## What is Lorem Ipsum?
 In mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus ut
 
