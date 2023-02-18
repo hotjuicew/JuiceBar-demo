@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = 'http://juicebar-demo.add1.dev/'
+languageCode = 'zh'
 theme = "JuiceBar"
 title = "JuiceBar"
 
