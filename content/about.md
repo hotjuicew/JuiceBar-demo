@@ -6,10 +6,108 @@ heroimage: /images/author.jpg
 layout: about
 ---
 
-《桃花源记》是东晋文学家陶渊明的代表作之一，是《桃花源诗》的序言，选自《陶渊明集》。此文借武陵渔人行踪这一线索，把现实和理想境界联系起来，通过对桃花源的安宁和乐、自由平等生活的描绘，表现了作者追求美好生活的理想和对当时的现实生活不满。
+JuiceBar is a concise, elegan blog theme powered by [Hugo](https://gohugo.io).
 
-晋太元中，武陵人捕鱼为业。缘溪行，忘路之远近。忽逢桃花林，夹岸数百步，中无杂树，芳草鲜美，落英缤纷，渔人甚异之。复前行，欲穷其林。
-林尽水源，便得一山，山有小口，仿佛若有光。便舍船，从口入。初极狭，才通人。复行数十步，豁然开朗。土地平旷，屋舍俨然，有良田美池桑竹之属。阡陌交通，鸡犬相闻。其中往来种作，男女衣着，悉如外人。黄发垂髫，并怡然自乐。
-见渔人，乃大惊，问所从来。具答之。便要还家，设酒杀鸡作食。村中闻有此人，咸来问讯。自云先世避秦时乱，率妻子邑人来此绝境，不复出焉，遂与外人间隔。问今是何世，乃不知有汉，无论魏晋。此人一一为具言所闻，皆叹惋。余人各复延至其家，皆出酒食。停数日，辞去。此中人语云：“不足为外人道也。”
-既出，得其船，便扶向路，处处志之。及郡下，诣太守，说如此。太守即遣人随其往，寻向所志，遂迷，不复得路。
-南阳刘子骥，高尚士也，闻之，欣然规往。未果，寻病终，后遂无问津者。
+This theme drew a lot of inspiration from PapermMod and LoveIt, and credit is due to their excellent work.
+
+⭐Demo → [juicebar-demo.add1.dev](https://juicebar-demo.add1.dev)
+
+<hr />
+
+## Overview
+![](https://github.com/hotjuicew/hugo-JuiceBar/blob/master/images/screenshot.png)
+
+## Features
+
+- Theming: **dark/light mode**, depending on your system preferences or the users choice
+- An easy way to modify the theme with Hugo tooling
+- Fully responsive
+- Support for social icons
+- Some beautiful CSS animations
+- Easy-to-use and self-expanding table of contents
+- Automatically highlighting code
+- Custom script shortcode
+## How to start
+
+
+You can install the theme either as a clone or submodule.
+
+I recommend the latter. From the root of your Hugo site, type the following:
+
+```
+$ git submodule add https://github.com/hotjuicew/hugo-JuiceBar.git themes/JuiceBar
+```
+
+Now you can get updates to hugo-JuiceBar in the future by updating the submodule:
+
+```
+$ git submodule update --remote themes/JuiceBar
+```
+## How to configure
+
+The theme doesn't require any advanced configuration. Just copy the following config file.
+
+`config.toml`
+```toml
+baseURL = 'http://example.org/' 
+languageCode = 'en-us'
+theme = "JuiceBar"
+title = "your_blog_title"
+
+[params]
+author = "your_name"
+description = "My site description"
+authorImage = "/images/profile.jpg"
+paginate = 5 
+Title = "your_blog_title"
+content = "I'm JuiceBar, nice to meet you(ˊ˘ˋ*)♡"
+imageUrl = "/images/avatar.jpg"
+
+# To add a new social icon
+[[params.social]]
+name = "Github"
+url = "https://github.com/hotjuicew"
+[[params.social]]
+name = "telegram"
+url = "https://t.me/Hotjuice"
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/hotjuicee"
+[[params.social]]
+name = "email"
+url = "mailto:hotjuicew@outlook.com"
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# To add a new navigation link
+[[menu.main]]
+name = "About"
+url = "/about"
+[[menu.main]]
+name = "Blog"
+url = "/post"
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+
+# Used for outputting the documentation (required).
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+```
+Note: There are more options to configure. Take a look into the `config.toml` in `exampleSite`.
+
+After installation, take a look at the `exampleSite` folder inside `themes/hugo-JuiceBar`.
+
+To get started, copy the `config.toml` file inside `exampleSite` to the root of your Hugo site:
+
+```
+$ cp themes/hugo-JuiceBar/exampleSite/config.toml .
+```
+Now edit this file and add your own information. Note that some fields can be omitted.
+
+I recommend you use the theme's archetypes so now delete your site's `archetypes/default.md`.
+
+Finally, just run `$ hugo new content/about.md` to create your 'About' page, and `$ hugo new content/post/title.md` to create your first blog post.
