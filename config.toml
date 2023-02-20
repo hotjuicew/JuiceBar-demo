@@ -1,4 +1,4 @@
-baseURL = 'https://juicebar-demo.add1.dev'
+baseURL = 'https://juicebar-demo.add1.dev/'
 languageCode = 'zh-CN'
 theme = "JuiceBar"
 title = "JuiceBar"
