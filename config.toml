@@ -42,6 +42,18 @@ url = "/post"
 name = "Categories"
 url = "/categories"
 
+[params.giscus]
+data-repo="hotjuicew/JuiceBar-demo"
+data-repo-id="R_kgDOI_ER5A"
+category = "Announcements"
+categoryID = "DIC_kwDOHHQOu84CWCQ3"
+mapping = "og:title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+lang = "en"
+loading = "lazy"
+
 #用于输出文档的设置（必须的）
 [outputs]
 home = ["HTML", "RSS", "JSON"]
