@@ -43,10 +43,10 @@ name = "Categories"
 url = "/categories"
 
 [params.giscus]
-data-repo="hotjuicew/JuiceBar-demo"
-data-repo-id="R_kgDOI_ER5A"
+repo = "hotjuicew/JuiceBar-demo"
+repoID = "R_kgDOI_ER5A"
 category = "Announcements"
-categoryID = "DIC_kwDOHHQOu84CWCQ3"
+categoryID = "DIC_kwDOI_ER5M4CWEhA"
 mapping = "og:title"
 reactionsEnabled = "1"
 emitMetadata = "0"
