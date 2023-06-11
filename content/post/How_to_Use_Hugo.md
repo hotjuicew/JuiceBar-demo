@@ -2,6 +2,8 @@
 title: "How to Use Hugo: A Beginner's Guide"
 date: 2023-02-20T01:02:08+08:00
 categories: ["Guide"]
+protected: true
+password: '111111'
 ---
 
 ## What is Hugo?
