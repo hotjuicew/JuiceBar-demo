@@ -1,12 +1,12 @@
-baseURL = 'https://juicebar-demo.add1.dev/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'zh-CN'
 theme = "JuiceBar"
 title = "JuiceBar"
 
 [params]
 author = "hotjuicew"
-description = "My site description"
 authorImage = "/images/profile.jpg"
+description = "My site description"
 paginate = 5
 
 Title = "JuiceBar"
@@ -26,7 +26,6 @@ url = "https://twitter.com/hotjuicee"
 name = "email"
 url = "mailto:imjiaying@outlook.com"
 
-
 [taxonomies]
 category = "categories"
 tag = "tags"
@@ -43,19 +42,17 @@ name = "Categories"
 url = "/categories"
 
 [params.giscus]
-repo = "hotjuicew/JuiceBar-demo"
-repoID = "R_kgDOI_ER5A"
 category = "Announcements"
 categoryID = "DIC_kwDOI_ER5M4CWEhA"
-mapping = "og:title"
-reactionsEnabled = "1"
 emitMetadata = "0"
 inputPosition = "bottom"
 lang = "en"
 loading = "lazy"
+mapping = "og:title"
+reactionsEnabled = "1"
+repo = "hotjuicew/JuiceBar-demo"
+repoID = "R_kgDOI_ER5A"
 
 #用于输出文档的设置（必须的）
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-
