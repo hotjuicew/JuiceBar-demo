@@ -8,5 +8,7 @@ chmod +x ./hugoArticleEncryptor
 
 ls -lha
 
+ls -lha themes 
+
 ./hugoArticleEncryptor
 
