@@ -12,7 +12,7 @@ hugoArticleEncryptor is a tool for encrypting Hugo articles. It uses the AES-GCM
 
 The configuration is very simple. Once you enter the correct password, you don't need to re-enter it when accessing the encrypted page again. The decrypted content will be directly displayed.
 
-## [DEMO](https://juicebar-demo.add1.dev/)
+[DEMO](https://juicebar-demo.add1.dev/)
 
 ## Installation and Usage
 
