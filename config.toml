@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'juice-bar-demo-1zoxvpf37-hotjuicew.vercel.app'
 languageCode = 'zh-CN'
 theme = "JuiceBar"
 title = "JuiceBar"
