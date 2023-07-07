@@ -11,7 +11,7 @@ paginate = 5
 
 Title = "JuiceBar"
 content = "I'm JuiceBar, nice to meet you(ˊ˘ˋ*)♡"
-imageUrl = "/images/avatar.jpg"
+imageUrl = "https://avatars.githubusercontent.com/u/101414955?v=4"
 #添加新的社交图标
 [[params.social]]
 name = "Github"

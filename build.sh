@@ -2,5 +2,5 @@ curl -L -o hugoArticleEncryptor "https://github.com/hotjuicew/hugoArticleEncrypt
 
 chmod +x ./hugoArticleEncryptor
 
-./hugoArticleEncryptor JuiceBar
+./hugoArticleEncryptor
 
