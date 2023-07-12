@@ -4,6 +4,10 @@ date: 2023-07-07T17:25:17+08:00
 categories: ["encrypted"]
 ---
 
+<!--more-->
+
+{{< secret "password" >}}
+
 # hugoArticleEncryptor
 
 English | [简体中文](https://github.com/hotjuicew/hugoArticleEncryptor/blob/master/README-zh_CN.md)
@@ -74,3 +78,5 @@ $ .\hugoArticleEncryptor.exe <your-theme-name>
 ```bash
 $ python3 -m http.server -b 0.0.0.0 -d public 1313
 ```
+
+{{< /secret >}}
